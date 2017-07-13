@@ -32,7 +32,7 @@ activityLabels <- read.csv("UCI HAR Dataset/activity_labels.txt", sep="", header
 relevantDS$activity <-factor(relevantDS$activity,levels=activityLabels[,1], labels=activityLabels[,2])
 
 #merge subject & activity to single colum
-relevantDS$subject_activity <- paste(relevantDS$subject, relevantDS$activity,setp="_")
+relevantDS$subject_activity <- paste(relevantDS$subject, relevantDS$activity)
                             
 #5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
