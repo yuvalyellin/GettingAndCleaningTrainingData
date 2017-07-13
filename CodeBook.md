@@ -6,7 +6,21 @@ The input is described in the README.txt of the data - including the various tes
 The output tidy DS is the mean of all the std/mean features per subject & actibity. 
 To make it tidy, each row is uniquely identified by the combination of subject & activity.
 
-The data is described, including units and measures in the Readme file attacehd.
+
+## Files used
+
+The dataset includes multiple files, these are the ones Used: 
+
+* Features.txt
+* activity_labels.txt
+* train\X_train.txt
+* train\subject_train.txt
+* train\y_train.txt
+* test\X_test.txt
+* test\subject_test.txt
+* test\y_test.txt
+
+Detailed information about the files and features,  including units and measures is available in README.txt and features_info.txt.
 
 ## Steps In the Run Analysis Script:
 
